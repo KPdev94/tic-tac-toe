@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#userNames {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+    max-width: fit-content;
+}
+
+
+#play-area {
+    display: flex;
+    min-width: 350px;
+    max-width: 500px;
+    min-height: 350px;
+    max-height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 10px;
+
+}
+.playBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
